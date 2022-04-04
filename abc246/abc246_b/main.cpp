@@ -6,7 +6,7 @@
 #define ALL(x) ::std::begin(x), ::std::end(x)
 using namespace std;
 
-std::pair<double, double> solve(int A, int B) {
+pair<double, double> solve(int A, int B) {
     // TODO: edit here
     return {A/sqrt(pow(A,2)+pow(B,2)), B/sqrt(pow(A,2)+pow(B,2))};
 }
