@@ -22,19 +22,19 @@ int main(){
     REP(i, N) ans += A[i];
 
     ll M = 0;
-    REP(i, N) M += floor(A[i]/X);
-    M = min(K, M);
-    ans -= M*X;
-    K -= M;
+    REP(i, N) M += floor(A[i]/X); // a-X>=0の範囲でクーポンを使っていく(K枚以上使ってもいいとして) 
+    M = min(K, M); // 枚数をKで抑える
+    ans -= M*X; // 実際に使った枚数分値下げする
+    K -= M; // 与えられた枚数から使った枚数を引く
 
     REP(i, N) A[i] %= X;
-    sort(A, A+N);
+    sort(A, A+N); // 額のでかい順にクーポンを消費していく
     // sort(A.begin(), A.end()); //出力がemptyになる（詳しい挙動は未確認）
 
     REP_R(i, N){
-        if (K == 0) break;
-        ans -= A[i];
-        --K;
+        if (K == 0) break; // クーポンなくなったら終わり
+        ans -= A[i]; // クーポンと相殺させていく
+        --K; // クーポン減らす
     }
 
     cout << ans << endl;
