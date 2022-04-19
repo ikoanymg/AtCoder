@@ -7,9 +7,6 @@ Qiitaの記事[1]のコードをベタ貼りしてる。クラスが使われて
 
 ## 参考
 
-1. [【競プロライブラリ】mint(modint)で学ぶC++][1]
+1. [【競プロライブラリ】mint(modint)で学ぶC++][https://qiita.com/uesho/items/1ee5c3e665c72c035880]
 
-2. [「1000000007 で割ったあまり」の求め方を総特集！ 〜 逆元から離散対数まで 〜][2]
-
-[1]:[https://qiita.com/uesho/items/1ee5c3e665c72c035880]
-[2]:[https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a]
+2. [「1000000007 で割ったあまり」の求め方を総特集！ 〜 逆元から離散対数まで 〜][[2](https://qiita.com/drken/items/3b4fdf0a78e7a138cd9a)]
