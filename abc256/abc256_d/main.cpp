@@ -7,6 +7,8 @@
 using namespace std;
 typedef long long ll;
 
+// cf. Imos method
+// https://imoz.jp/algorithms/imos_method.html
 
 int main(){
     std::ios::sync_with_stdio(false);
@@ -20,5 +22,5 @@ int main(){
         REP(j,2) cin >> range[i][j];
     }
 
-    
+
 }
