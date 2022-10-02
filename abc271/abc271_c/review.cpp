@@ -22,7 +22,7 @@ int main(){
     for (int i=0; i<N; i++) {
         cin >> a[i];
         if (a[i]>=vol.size()) sold++; // Sell a[i] if the volume cannot be read
-        else if (vol[i]) sold++; // Sell a[i] if the same volume has already existed
+        else if (vol[a[i]]) sold++; // Sell a[i] if the same volume has already existed
         else vol[a[i]] = true;
     }
 
