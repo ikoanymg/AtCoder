@@ -11,8 +11,8 @@ a = LI()
 mp = collections.Counter(a)
 mp = sorted(mp.items(), reverse=True)
 
-for a in mp:
-    print(a[1])
+for x in mp:
+    print(x[1])
 
 for _ in [0]*(n-len(mp)):
     print(0)
